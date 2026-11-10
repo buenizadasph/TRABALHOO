@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+    font-family: Arial, sans-serif;
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    border-bottom: 3px solid #d00000;
+}
+
+header h1 {
+    color: #d00000;
+    font-size: 32px;
+    font-style: italic;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d00000;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.Cartel {
+    width: 240px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+}
+
+.Cartel:hover {
+    transform: translateY(-5px);
+    border-color: #d00000;
+}
+
+.Cartel img { 
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #d00000;
+    margin-bottom: 15px;
+}
+
+.Cartel h1 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.Cartel h3 {
+    color: #d00000;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.Cartel p {
+    color: #ccc;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.btn-perfil {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #d00000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.btn-perfil:hover {
+    background-color: #990000;
+}
